@@ -1,0 +1,33 @@
+@model ONG_connect.Models.Proyecto
+
+@{
+    ViewData["Title"] = "Eliminar Proyecto";
+}
+
+<h1>Eliminar Proyecto</h1>
+
+<h3>¿Está seguro de que desea eliminar este registro?</h3>
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Nombre)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Nombre)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Responsable)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Responsable)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Presupuesto)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Presupuesto)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Estado)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Estado)</dd>
+
+        <dt class="col-sm-3">Usuario responsable</dt>
+        <dd class="col-sm-9">@Model.Usuario?.Nombre</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdProyecto" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </form>
+</div>

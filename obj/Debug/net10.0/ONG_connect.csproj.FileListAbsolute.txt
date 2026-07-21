@@ -186,3 +186,4 @@ C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\refint\ONG_conne
 C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.pdb
 C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.genruntimeconfig.cache
 C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ref\ONG_connect.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.sourcelink.json

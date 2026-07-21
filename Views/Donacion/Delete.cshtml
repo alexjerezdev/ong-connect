@@ -1,0 +1,33 @@
+@model ONG_connect.Models.Donacion
+
+@{
+    ViewData["Title"] = "Eliminar Donación";
+}
+
+<h1>Eliminar Donación</h1>
+
+<h3>¿Está seguro de que desea eliminar este registro?</h3>
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NombreDonante)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.NombreDonante)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.TipoDonacion)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.TipoDonacion)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.ValorEconomico)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.ValorEconomico)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.FechaDonacion)</dt>
+        <dd class="col-sm-9">@Model.FechaDonacion.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">Proyecto</dt>
+        <dd class="col-sm-9">@Model.Proyecto?.Nombre</dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdDonacion" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </form>
+</div>

@@ -40,16 +40,13 @@ namespace ONG_connect.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("ProyectoIdProyecto")
-                        .HasColumnType("integer");
-
                     b.Property<string>("Responsable")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("IdActividad");
 
-                    b.HasIndex("ProyectoIdProyecto");
+                    b.HasIndex("IdProyecto");
 
                     b.ToTable("Actividades");
                 });
@@ -72,16 +69,13 @@ namespace ONG_connect.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("ProyectoIdProyecto")
-                        .HasColumnType("integer");
-
                     b.Property<string>("TipoBeneficiario")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("IdBeneficiario");
 
-                    b.HasIndex("ProyectoIdProyecto");
+                    b.HasIndex("IdProyecto");
 
                     b.ToTable("Beneficiarios");
                 });
@@ -104,9 +98,6 @@ namespace ONG_connect.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("ProyectoIdProyecto")
-                        .HasColumnType("integer");
-
                     b.Property<string>("TipoDonacion")
                         .IsRequired()
                         .HasColumnType("text");
@@ -116,7 +107,7 @@ namespace ONG_connect.Migrations
 
                     b.HasKey("IdDonacion");
 
-                    b.HasIndex("ProyectoIdProyecto");
+                    b.HasIndex("IdProyecto");
 
                     b.ToTable("Donaciones");
                 });
@@ -147,12 +138,9 @@ namespace ONG_connect.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("UsuarioIdUsuario")
-                        .HasColumnType("integer");
-
                     b.HasKey("IdProyecto");
 
-                    b.HasIndex("UsuarioIdUsuario");
+                    b.HasIndex("IdUsuario");
 
                     b.ToTable("Proyectos");
                 });
@@ -209,16 +197,13 @@ namespace ONG_connect.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("ProyectoIdProyecto")
-                        .HasColumnType("integer");
-
                     b.Property<string>("Telefono")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("IdVoluntario");
 
-                    b.HasIndex("ProyectoIdProyecto");
+                    b.HasIndex("IdProyecto");
 
                     b.ToTable("Voluntarios");
                 });
@@ -227,7 +212,7 @@ namespace ONG_connect.Migrations
                 {
                     b.HasOne("ONG_connect.Models.Proyecto", "Proyecto")
                         .WithMany("Actividades")
-                        .HasForeignKey("ProyectoIdProyecto")
+                        .HasForeignKey("IdProyecto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -238,7 +223,7 @@ namespace ONG_connect.Migrations
                 {
                     b.HasOne("ONG_connect.Models.Proyecto", "Proyecto")
                         .WithMany("Beneficiarios")
-                        .HasForeignKey("ProyectoIdProyecto")
+                        .HasForeignKey("IdProyecto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -249,7 +234,7 @@ namespace ONG_connect.Migrations
                 {
                     b.HasOne("ONG_connect.Models.Proyecto", "Proyecto")
                         .WithMany("Donaciones")
-                        .HasForeignKey("ProyectoIdProyecto")
+                        .HasForeignKey("IdProyecto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -260,7 +245,7 @@ namespace ONG_connect.Migrations
                 {
                     b.HasOne("ONG_connect.Models.Usuario", "Usuario")
                         .WithMany("Proyectos")
-                        .HasForeignKey("UsuarioIdUsuario")
+                        .HasForeignKey("IdUsuario")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -271,7 +256,7 @@ namespace ONG_connect.Migrations
                 {
                     b.HasOne("ONG_connect.Models.Proyecto", "Proyecto")
                         .WithMany("Voluntarios")
-                        .HasForeignKey("ProyectoIdProyecto")
+                        .HasForeignKey("IdProyecto")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

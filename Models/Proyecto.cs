@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
-
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace ONG_connect.Models
 {
@@ -18,13 +19,22 @@ namespace ONG_connect.Models
 
         public string Estado { get; set; } = string.Empty;
 
-        // Clave foránea
         public int IdUsuario { get; set; }
+
+        [ForeignKey("IdUsuario")]
+        [ValidateNever]
         public virtual Usuario Usuario { get; set; } = null!;
 
+        [ValidateNever]
         public virtual ICollection<Voluntario> Voluntarios { get; set; } = new HashSet<Voluntario>();
+
+        [ValidateNever]
         public virtual ICollection<Actividad> Actividades { get; set; } = new HashSet<Actividad>();
+
+        [ValidateNever]
         public virtual ICollection<Beneficiario> Beneficiarios { get; set; } = new HashSet<Beneficiario>();
+
+        [ValidateNever]
         public virtual ICollection<Donacion> Donaciones { get; set; } = new HashSet<Donacion>();
     }
 }

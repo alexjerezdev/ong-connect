@@ -38,15 +38,14 @@ namespace ONG_connect.Migrations
                     Responsable = table.Column<string>(type: "text", nullable: false),
                     Presupuesto = table.Column<decimal>(type: "numeric", nullable: false),
                     Estado = table.Column<string>(type: "text", nullable: false),
-                    IdUsuario = table.Column<int>(type: "integer", nullable: false),
-                    UsuarioIdUsuario = table.Column<int>(type: "integer", nullable: false)
+                    IdUsuario = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Proyectos", x => x.IdProyecto);
                     table.ForeignKey(
-                        name: "FK_Proyectos_Usuarios_UsuarioIdUsuario",
-                        column: x => x.UsuarioIdUsuario,
+                        name: "FK_Proyectos_Usuarios_IdUsuario",
+                        column: x => x.IdUsuario,
                         principalTable: "Usuarios",
                         principalColumn: "IdUsuario",
                         onDelete: ReferentialAction.Cascade);
@@ -61,15 +60,14 @@ namespace ONG_connect.Migrations
                     Nombre = table.Column<string>(type: "text", nullable: false),
                     Fecha = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Responsable = table.Column<string>(type: "text", nullable: false),
-                    IdProyecto = table.Column<int>(type: "integer", nullable: false),
-                    ProyectoIdProyecto = table.Column<int>(type: "integer", nullable: false)
+                    IdProyecto = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Actividades", x => x.IdActividad);
                     table.ForeignKey(
-                        name: "FK_Actividades_Proyectos_ProyectoIdProyecto",
-                        column: x => x.ProyectoIdProyecto,
+                        name: "FK_Actividades_Proyectos_IdProyecto",
+                        column: x => x.IdProyecto,
                         principalTable: "Proyectos",
                         principalColumn: "IdProyecto",
                         onDelete: ReferentialAction.Cascade);
@@ -84,15 +82,14 @@ namespace ONG_connect.Migrations
                     Nombre = table.Column<string>(type: "text", nullable: false),
                     TipoBeneficiario = table.Column<string>(type: "text", nullable: false),
                     CantidadAyuda = table.Column<decimal>(type: "numeric", nullable: false),
-                    IdProyecto = table.Column<int>(type: "integer", nullable: false),
-                    ProyectoIdProyecto = table.Column<int>(type: "integer", nullable: false)
+                    IdProyecto = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Beneficiarios", x => x.IdBeneficiario);
                     table.ForeignKey(
-                        name: "FK_Beneficiarios_Proyectos_ProyectoIdProyecto",
-                        column: x => x.ProyectoIdProyecto,
+                        name: "FK_Beneficiarios_Proyectos_IdProyecto",
+                        column: x => x.IdProyecto,
                         principalTable: "Proyectos",
                         principalColumn: "IdProyecto",
                         onDelete: ReferentialAction.Cascade);
@@ -108,15 +105,14 @@ namespace ONG_connect.Migrations
                     TipoDonacion = table.Column<string>(type: "text", nullable: false),
                     ValorEconomico = table.Column<decimal>(type: "numeric", nullable: false),
                     FechaDonacion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    IdProyecto = table.Column<int>(type: "integer", nullable: false),
-                    ProyectoIdProyecto = table.Column<int>(type: "integer", nullable: false)
+                    IdProyecto = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Donaciones", x => x.IdDonacion);
                     table.ForeignKey(
-                        name: "FK_Donaciones_Proyectos_ProyectoIdProyecto",
-                        column: x => x.ProyectoIdProyecto,
+                        name: "FK_Donaciones_Proyectos_IdProyecto",
+                        column: x => x.IdProyecto,
                         principalTable: "Proyectos",
                         principalColumn: "IdProyecto",
                         onDelete: ReferentialAction.Cascade);
@@ -132,44 +128,43 @@ namespace ONG_connect.Migrations
                     Telefono = table.Column<string>(type: "text", nullable: false),
                     Email = table.Column<string>(type: "text", nullable: false),
                     Estado = table.Column<bool>(type: "boolean", nullable: false),
-                    IdProyecto = table.Column<int>(type: "integer", nullable: false),
-                    ProyectoIdProyecto = table.Column<int>(type: "integer", nullable: false)
+                    IdProyecto = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Voluntarios", x => x.IdVoluntario);
                     table.ForeignKey(
-                        name: "FK_Voluntarios_Proyectos_ProyectoIdProyecto",
-                        column: x => x.ProyectoIdProyecto,
+                        name: "FK_Voluntarios_Proyectos_IdProyecto",
+                        column: x => x.IdProyecto,
                         principalTable: "Proyectos",
                         principalColumn: "IdProyecto",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Actividades_ProyectoIdProyecto",
+                name: "IX_Actividades_IdProyecto",
                 table: "Actividades",
-                column: "ProyectoIdProyecto");
+                column: "IdProyecto");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Beneficiarios_ProyectoIdProyecto",
+                name: "IX_Beneficiarios_IdProyecto",
                 table: "Beneficiarios",
-                column: "ProyectoIdProyecto");
+                column: "IdProyecto");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Donaciones_ProyectoIdProyecto",
+                name: "IX_Donaciones_IdProyecto",
                 table: "Donaciones",
-                column: "ProyectoIdProyecto");
+                column: "IdProyecto");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Proyectos_UsuarioIdUsuario",
+                name: "IX_Proyectos_IdUsuario",
                 table: "Proyectos",
-                column: "UsuarioIdUsuario");
+                column: "IdUsuario");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Voluntarios_ProyectoIdProyecto",
+                name: "IX_Voluntarios_IdProyecto",
                 table: "Voluntarios",
-                column: "ProyectoIdProyecto");
+                column: "IdProyecto");
         }
 
         /// <inheritdoc />

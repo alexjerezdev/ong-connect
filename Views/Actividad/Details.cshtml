@@ -1,0 +1,27 @@
+@model ONG_connect.Models.Actividad
+
+@{
+    ViewData["Title"] = "Detalles de la Actividad";
+}
+
+<h1>Detalles de la Actividad</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Nombre)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Nombre)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Fecha)</dt>
+        <dd class="col-sm-9">@Model.Fecha.ToShortDateString()</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Responsable)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Responsable)</dd>
+
+        <dt class="col-sm-3">Proyecto</dt>
+        <dd class="col-sm-9">@Model.Proyecto?.Nombre</dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdActividad" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+</div>
