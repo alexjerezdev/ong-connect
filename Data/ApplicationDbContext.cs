@@ -10,7 +10,7 @@ namespace ONG_connect.Data
         {
         }
 
-        public DbSet<Usuario> Usuarioso { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Proyecto> Proyectos { get; set; }
         public DbSet<Voluntario> Voluntarios { get; set; }
         public DbSet<Actividad> Actividades { get; set; }
