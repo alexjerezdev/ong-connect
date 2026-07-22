@@ -12,7 +12,7 @@ using ONG_connect.Data;
 namespace ONG_connect.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260721214344_InitialCreate")]
+    [Migration("20260722123443_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -175,7 +175,7 @@ namespace ONG_connect.Migrations
 
                     b.HasKey("IdUsuario");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarioso");
                 });
 
             modelBuilder.Entity("ONG_connect.Models.Voluntario", b =>

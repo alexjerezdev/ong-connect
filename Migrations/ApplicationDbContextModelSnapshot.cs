@@ -172,7 +172,7 @@ namespace ONG_connect.Migrations
 
                     b.HasKey("IdUsuario");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuarioso");
                 });
 
             modelBuilder.Entity("ONG_connect.Models.Voluntario", b =>

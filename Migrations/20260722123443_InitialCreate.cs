@@ -13,7 +13,7 @@ namespace ONG_connect.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Usuarios",
+                name: "Usuarioso",
                 columns: table => new
                 {
                     IdUsuario = table.Column<int>(type: "integer", nullable: false)
@@ -25,7 +25,7 @@ namespace ONG_connect.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Usuarios", x => x.IdUsuario);
+                    table.PrimaryKey("PK_Usuarioso", x => x.IdUsuario);
                 });
 
             migrationBuilder.CreateTable(
@@ -44,9 +44,9 @@ namespace ONG_connect.Migrations
                 {
                     table.PrimaryKey("PK_Proyectos", x => x.IdProyecto);
                     table.ForeignKey(
-                        name: "FK_Proyectos_Usuarios_IdUsuario",
+                        name: "FK_Proyectos_Usuarioso_IdUsuario",
                         column: x => x.IdUsuario,
-                        principalTable: "Usuarios",
+                        principalTable: "Usuarioso",
                         principalColumn: "IdUsuario",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -186,7 +186,7 @@ namespace ONG_connect.Migrations
                 name: "Proyectos");
 
             migrationBuilder.DropTable(
-                name: "Usuarios");
+                name: "Usuarioso");
         }
     }
 }
