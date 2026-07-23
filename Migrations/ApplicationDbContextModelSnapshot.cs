@@ -31,7 +31,7 @@ namespace ONG_connect.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdActividad"));
 
                     b.Property<DateTime>("Fecha")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int>("IdProyecto")
                         .HasColumnType("integer");
@@ -89,7 +89,7 @@ namespace ONG_connect.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("IdDonacion"));
 
                     b.Property<DateTime>("FechaDonacion")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int>("IdProyecto")
                         .HasColumnType("integer");
@@ -172,7 +172,7 @@ namespace ONG_connect.Migrations
 
                     b.HasKey("IdUsuario");
 
-                    b.ToTable("Usuarioso");
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("ONG_connect.Models.Voluntario", b =>

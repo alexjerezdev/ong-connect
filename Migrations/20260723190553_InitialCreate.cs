@@ -13,7 +13,7 @@ namespace ONG_connect.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Usuarioso",
+                name: "Usuarios",
                 columns: table => new
                 {
                     IdUsuario = table.Column<int>(type: "integer", nullable: false)
@@ -25,7 +25,7 @@ namespace ONG_connect.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Usuarioso", x => x.IdUsuario);
+                    table.PrimaryKey("PK_Usuarios", x => x.IdUsuario);
                 });
 
             migrationBuilder.CreateTable(
@@ -44,9 +44,9 @@ namespace ONG_connect.Migrations
                 {
                     table.PrimaryKey("PK_Proyectos", x => x.IdProyecto);
                     table.ForeignKey(
-                        name: "FK_Proyectos_Usuarioso_IdUsuario",
+                        name: "FK_Proyectos_Usuarios_IdUsuario",
                         column: x => x.IdUsuario,
-                        principalTable: "Usuarioso",
+                        principalTable: "Usuarios",
                         principalColumn: "IdUsuario",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -58,7 +58,7 @@ namespace ONG_connect.Migrations
                     IdActividad = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nombre = table.Column<string>(type: "text", nullable: false),
-                    Fecha = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    Fecha = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     Responsable = table.Column<string>(type: "text", nullable: false),
                     IdProyecto = table.Column<int>(type: "integer", nullable: false)
                 },
@@ -104,7 +104,7 @@ namespace ONG_connect.Migrations
                     NombreDonante = table.Column<string>(type: "text", nullable: false),
                     TipoDonacion = table.Column<string>(type: "text", nullable: false),
                     ValorEconomico = table.Column<decimal>(type: "numeric", nullable: false),
-                    FechaDonacion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    FechaDonacion = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     IdProyecto = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
@@ -186,7 +186,7 @@ namespace ONG_connect.Migrations
                 name: "Proyectos");
 
             migrationBuilder.DropTable(
-                name: "Usuarioso");
+                name: "Usuarios");
         }
     }
 }

@@ -16,5 +16,19 @@ namespace ONG_connect.Data
         public DbSet<Actividad> Actividades { get; set; }
         public DbSet<Beneficiario> Beneficiarios { get; set; }
         public DbSet<Donacion> Donaciones { get; set; }
+
+         protected override void OnModelCreating(ModelBuilder modelBuilder)
+{
+    base.OnModelCreating(modelBuilder);
+
+    modelBuilder.Entity<Actividad>()
+        .Property(a => a.Fecha)
+        .HasColumnType("timestamp without time zone");
+
+
+    modelBuilder.Entity<Donacion>()
+        .Property(d => d.FechaDonacion)
+        .HasColumnType("timestamp without time zone");
+}
     }
 }

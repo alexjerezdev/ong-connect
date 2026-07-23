@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ONG_connect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0507fb19a5ce0936ef8ba7d8509bf7e8fbcb5eef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cde3f08c9cef763f9d175bb7a8a6b96aa852ec9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ONG_connect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ONG_connect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
