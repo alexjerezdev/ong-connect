@@ -26,7 +26,7 @@
             <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
             <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
             <td>@Html.DisplayFor(modelItem => item.Email)</td>
-            <td>@(item.Estado ? "Activo" : "Inactivo")</td>
+            <td><partial name="_EstadoBadge" model="@(item.Estado ? "Activo" : "Inactivo")" /></td>
             <td>@item.Proyecto?.Nombre</td>
             <td>
                 <a asp-action="Details" asp-route-id="@item.IdVoluntario" class="btn btn-sm btn-info">Detalles</a>
