@@ -1,4 +1,4 @@
-@model ONG_connect.Models.Usuario
+@model ONG_connect.ViewModels.UsuarioEditViewModel
 
 @{
     ViewData["Title"] = "Editar Usuario";
@@ -20,9 +20,9 @@
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
     <div class="form-group mb-3">
-        <label asp-for="Password" class="control-label"></label>
-        <input asp-for="Password" type="password" class="form-control" />
-        <span asp-validation-for="Password" class="text-danger"></span>
+        <label asp-for="NuevaPassword" class="control-label">Nueva contraseña</label>
+        <input asp-for="NuevaPassword" type="password" class="form-control" placeholder="Dejar en blanco para no cambiarla" />
+        <span asp-validation-for="NuevaPassword" class="text-danger"></span>
     </div>
     <div class="form-group mb-3">
         <label asp-for="Rol" class="control-label"></label>

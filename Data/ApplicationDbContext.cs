@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using ONG_connect.Models;
 
 namespace ONG_connect.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -17,18 +19,17 @@ namespace ONG_connect.Data
         public DbSet<Beneficiario> Beneficiarios { get; set; }
         public DbSet<Donacion> Donaciones { get; set; }
 
-         protected override void OnModelCreating(ModelBuilder modelBuilder)
-{
-    base.OnModelCreating(modelBuilder);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder); // OBLIGATORIO con Identity, ya lo tenías bien
 
-    modelBuilder.Entity<Actividad>()
-        .Property(a => a.Fecha)
-        .HasColumnType("timestamp without time zone");
+            modelBuilder.Entity<Actividad>()
+                .Property(a => a.Fecha)
+                .HasColumnType("timestamp without time zone");
 
-
-    modelBuilder.Entity<Donacion>()
-        .Property(d => d.FechaDonacion)
-        .HasColumnType("timestamp without time zone");
-}
+            modelBuilder.Entity<Donacion>()
+                .Property(d => d.FechaDonacion)
+                .HasColumnType("timestamp without time zone");
+        }
     }
 }

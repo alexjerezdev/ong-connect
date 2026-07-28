@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ONG_connect.Interfaces;
@@ -5,6 +6,7 @@ using ONG_connect.Models;
 
 namespace ONG_connect.Controllers
 {
+    [Authorize]
     public class DonacionController : Controller
     {
         private readonly IRepository<Donacion> _repository;
@@ -12,18 +14,16 @@ namespace ONG_connect.Controllers
 
         public DonacionController(IRepository<Donacion> repository, IRepository<Proyecto> proyectoRepository)
         {
-            _repository = repository; // Desacoplamiento total
+            _repository = repository;
             _proyectoRepository = proyectoRepository;
         }
 
-        // GET: Donacion
         public async Task<IActionResult> Index()
         {
             var donaciones = await _repository.GetAllAsync();
             return View(donaciones);
         }
 
-        // GET: Donacion/Details/5
         public async Task<IActionResult> Details(int id)
         {
             var donacion = await _repository.GetByIdAsync(id);
@@ -31,7 +31,6 @@ namespace ONG_connect.Controllers
             return View(donacion);
         }
 
-        // GET: Donacion/Create
         public async Task<IActionResult> Create()
         {
             var proyectos = await _proyectoRepository.GetAllAsync();
@@ -39,7 +38,6 @@ namespace ONG_connect.Controllers
             return View();
         }
 
-        // POST: Donacion/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("NombreDonante,TipoDonacion,ValorEconomico,FechaDonacion,IdProyecto")] Donacion donacion)
@@ -55,7 +53,6 @@ namespace ONG_connect.Controllers
             return View(donacion);
         }
 
-        // GET: Donacion/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
             var donacion = await _repository.GetByIdAsync(id);
@@ -65,7 +62,6 @@ namespace ONG_connect.Controllers
             return View(donacion);
         }
 
-        // POST: Donacion/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdDonacion,NombreDonante,TipoDonacion,ValorEconomico,FechaDonacion,IdProyecto")] Donacion donacion)
@@ -83,7 +79,7 @@ namespace ONG_connect.Controllers
             return View(donacion);
         }
 
-        // GET: Donacion/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var donacion = await _repository.GetByIdAsync(id);
@@ -91,8 +87,8 @@ namespace ONG_connect.Controllers
             return View(donacion);
         }
 
-        // POST: Donacion/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

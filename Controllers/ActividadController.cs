@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ONG_connect.Interfaces;
@@ -5,6 +6,7 @@ using ONG_connect.Models;
 
 namespace ONG_connect.Controllers
 {
+    [Authorize]
     public class ActividadController : Controller
     {
         private readonly IRepository<Actividad> _repository;
@@ -12,18 +14,16 @@ namespace ONG_connect.Controllers
 
         public ActividadController(IRepository<Actividad> repository, IRepository<Proyecto> proyectoRepository)
         {
-            _repository = repository; // Desacoplamiento total
+            _repository = repository;
             _proyectoRepository = proyectoRepository;
         }
 
-        // GET: Actividad
         public async Task<IActionResult> Index()
         {
             var actividades = await _repository.GetAllAsync();
             return View(actividades);
         }
 
-        // GET: Actividad/Details/5
         public async Task<IActionResult> Details(int id)
         {
             var actividad = await _repository.GetByIdAsync(id);
@@ -31,7 +31,6 @@ namespace ONG_connect.Controllers
             return View(actividad);
         }
 
-        // GET: Actividad/Create
         public async Task<IActionResult> Create()
         {
             var proyectos = await _proyectoRepository.GetAllAsync();
@@ -39,7 +38,6 @@ namespace ONG_connect.Controllers
             return View();
         }
 
-        // POST: Actividad/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Nombre,Fecha,Responsable,IdProyecto")] Actividad actividad)
@@ -55,7 +53,6 @@ namespace ONG_connect.Controllers
             return View(actividad);
         }
 
-        // GET: Actividad/Edit/5
         public async Task<IActionResult> Edit(int id)
         {
             var actividad = await _repository.GetByIdAsync(id);
@@ -65,7 +62,6 @@ namespace ONG_connect.Controllers
             return View(actividad);
         }
 
-        // POST: Actividad/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("IdActividad,Nombre,Fecha,Responsable,IdProyecto")] Actividad actividad)
@@ -83,7 +79,7 @@ namespace ONG_connect.Controllers
             return View(actividad);
         }
 
-        // GET: Actividad/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var actividad = await _repository.GetByIdAsync(id);
@@ -91,8 +87,8 @@ namespace ONG_connect.Controllers
             return View(actividad);
         }
 
-        // POST: Actividad/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
