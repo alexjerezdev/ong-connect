@@ -1,0 +1,39 @@
+@model IEnumerable<ONG_connect.Models.Donacion>
+
+@{
+    ViewData["Title"] = "Donaciones";
+}
+
+<h1>Donaciones</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nueva</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.NombreDonante)</th>
+            <th>@Html.DisplayNameFor(model => model.TipoDonacion)</th>
+            <th>@Html.DisplayNameFor(model => model.ValorEconomico)</th>
+            <th>@Html.DisplayNameFor(model => model.FechaDonacion)</th>
+            <th>Proyecto</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.NombreDonante)</td>
+            <td>@Html.DisplayFor(modelItem => item.TipoDonacion)</td>
+            <td>@Html.DisplayFor(modelItem => item.ValorEconomico)</td>
+            <td>@item.FechaDonacion.ToShortDateString()</td>
+            <td>@item.Proyecto?.Nombre</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.IdDonacion" class="btn btn-sm btn-info">Detalles</a>
+                <a asp-action="Edit" asp-route-id="@item.IdDonacion" class="btn btn-sm btn-warning">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.IdDonacion" class="btn btn-sm btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,67 @@
+@model IEnumerable<ONG_connect.Models.Actividad>
+
+@{
+    ViewData["Title"] = "Actividades";
+}
+
+<h1>Actividades</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nueva</a>
+    <button id="btnCargar" class="btn btn-info">Cargar Actividades vía AJAX</button>
+</p>
+<div id="listaActividades" class="mt-3"></div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.Fecha)</th>
+            <th>@Html.DisplayNameFor(model => model.Responsable)</th>
+            <th>Proyecto</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+            <td>@item.Fecha.ToShortDateString()</td>
+            <td>@Html.DisplayFor(modelItem => item.Responsable)</td>
+            <td>@item.Proyecto?.Nombre</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.IdActividad" class="btn btn-sm btn-info">Detalles</a>
+                <a asp-action="Edit" asp-route-id="@item.IdActividad" class="btn btn-sm btn-warning">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.IdActividad" class="btn btn-sm btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts {
+<script>
+    document.getElementById("btnCargar").addEventListener("click", async () => {
+        const contenedor = document.getElementById("listaActividades");
+        contenedor.innerHTML = '<div class="spinner-border text-primary"></div>'; // Feedback visual
+
+        try {
+            const respuesta = await fetch("/api/ActividadApi");
+            if (!respuesta.ok) throw new Error("Error en la red");
+
+            const datos = await respuesta.json(); // Serialización automática a JSON
+
+            contenedor.innerHTML = ""; // Limpiar spinner
+            datos.forEach(a => {
+                const fecha = new Date(a.fecha).toLocaleDateString();
+                contenedor.innerHTML += `
+                    <div class="alert alert-secondary">
+                        <strong>${a.nombre}</strong> - ${fecha}
+                        (Responsable: ${a.responsable}, Proyecto: ${a.nombreProyecto})
+                    </div>`;
+            });
+        } catch (error) {
+            contenedor.innerHTML = `<p class="text-danger">Error: ${error.message}</p>`;
+        }
+    });
+</script>
+}

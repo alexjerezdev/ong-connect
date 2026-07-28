@@ -1,0 +1,74 @@
+@model ONG_connect.Models.Proyecto
+
+@{
+    ViewData["Title"] = "Detalles del Proyecto";
+}
+
+<h1>Detalles del Proyecto</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Nombre)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Nombre)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Responsable)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Responsable)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Presupuesto)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Presupuesto)</dd>
+
+        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Estado)</dt>
+        <dd class="col-sm-9">@Html.DisplayFor(model => model.Estado)</dd>
+
+        <dt class="col-sm-3">Usuario responsable</dt>
+        <dd class="col-sm-9">@Model.Usuario?.Nombre</dd>
+    </dl>
+
+    @if (Model.Voluntarios != null && Model.Voluntarios.Any())
+    {
+        <h4>Voluntarios asignados</h4>
+        <ul>
+            @foreach (var v in Model.Voluntarios)
+            {
+                <li>@v.Nombre</li>
+            }
+        </ul>
+    }
+
+    @if (Model.Actividades != null && Model.Actividades.Any())
+    {
+        <h4>Actividades</h4>
+        <ul>
+            @foreach (var a in Model.Actividades)
+            {
+                <li>@a.Nombre - @a.Fecha.ToShortDateString()</li>
+            }
+        </ul>
+    }
+
+    @if (Model.Beneficiarios != null && Model.Beneficiarios.Any())
+    {
+        <h4>Beneficiarios</h4>
+        <ul>
+            @foreach (var b in Model.Beneficiarios)
+            {
+                <li>@b.Nombre</li>
+            }
+        </ul>
+    }
+
+    @if (Model.Donaciones != null && Model.Donaciones.Any())
+    {
+        <h4>Donaciones</h4>
+        <ul>
+            @foreach (var d in Model.Donaciones)
+            {
+                <li>@d.NombreDonante - @d.ValorEconomico</li>
+            }
+        </ul>
+    }
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.IdProyecto" class="btn btn-warning">Editar</a>
+    <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+</div>

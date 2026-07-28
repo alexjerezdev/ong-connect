@@ -1,0 +1,702 @@
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\appsettings.Development.json
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\appsettings.json
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.staticwebassets.runtime.json
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.staticwebassets.endpoints.json
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.exe
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.deps.json
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.runtimeconfig.json
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ONG_connect.pdb
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Humanizer.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Npgsql.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\System.CodeDom.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.csproj.AssemblyReference.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.AssemblyInfoInputs.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.AssemblyInfo.cs
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.csproj.CoreCompileInputs.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.MvcApplicationPartsAssemblyInfo.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.RazorAssemblyInfo.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.RazorAssemblyInfo.cs
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\scopedcss\bundle\ONG_connect.styles.css
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\scopedcss\projectbundle\ONG_connect.bundle.scp.css
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\y6mmgfh3ha-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\kc9agt59p1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\cw1te1aid3-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\j4fhncd636-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\lymefhcv6d-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\gxym8klgok-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\1aayv1ksyp-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\tqciqqmlvp-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\ydmvng9743-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\zlouajkpd1-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\hqmxnf9qq4-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\sw65wra9v1-{0}-ub07r2b239-ub07r2b239.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\kdbbzsxgag-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\tvx232tnqj-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\ho887uh8t1-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\olsafmiu06-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\gqun1463ig-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\94stcpieyh-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\vqqjhablva-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\t30s1dxo05-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\jikvsmqm9e-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\14g816sstq-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\63xky0ta6h-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\55c36y81ew-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\5id8cmkdu9-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\oizmzqxd60-{0}-06098lyss8-06098lyss8.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\f7picq3zvu-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\3pd1ry9hk5-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\snfdk2w49k-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\2mzqmozf6f-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\g8stotbncy-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\avu94lcng7-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\ezrk6618um-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\w9gb16ni08-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\f9fjf9tr4j-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\ijqvex1l4w-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\gxixeggr4o-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\r3ylea955p-{0}-493y06b0oq-493y06b0oq.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\asxhtlbhz2-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\5rwtotvrot-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\ykvh8nw2tu-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\m3surjjqoy-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\x9bppierix-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\t63xzmb97w-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\vpawgnxo1c-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\o0e79gxmvx-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\x8xr907zs6-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\s5foz8x876-{0}-47otxtyo56-47otxtyo56.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\jpgltjjboq-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\vkcckvhrq6-{0}-356vix0kms-356vix0kms.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\8itub6d2fe-{0}-83jwlth58m-83jwlth58m.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\9t3jotvpcx-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\gb1ia940ul-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\7oaaml7v7o-{0}-ag7o75518u-ag7o75518u.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\qekn910bl7-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\hrpux9k50q-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\43e57mdj7f-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\015i2g3ku6-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\k4kzaiaoxg-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\q4u82e8969-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\0u8u4bucnl-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\65rqbkzaag-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\p6s63y4mth-{0}-s5kc54ryx1-s5kc54ryx1.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\compressed\krhqeve630-{0}-s5kc54ryx1-s5kc54ryx1.gz
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\staticwebassets.build.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\staticwebassets.development.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\swae.build.ex.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_conn.1C486D92.Up2Date
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\refint\ONG_connect.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.pdb
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.genruntimeconfig.cache
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ref\ONG_connect.dll
+C:\Programacion Web 1\ONG connect\ONG_connect\obj\Debug\net10.0\ONG_connect.sourcelink.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\appsettings.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.staticwebassets.runtime.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.staticwebassets.endpoints.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.exe
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.deps.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.runtimeconfig.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ONG_connect.pdb
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Npgsql.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.csproj.AssemblyReference.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.AssemblyInfoInputs.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.AssemblyInfo.cs
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.csproj.CoreCompileInputs.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.RazorAssemblyInfo.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.RazorAssemblyInfo.cs
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.sourcelink.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\scopedcss\bundle\ONG_connect.styles.css
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\scopedcss\projectbundle\ONG_connect.bundle.scp.css
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\y6mmgfh3ha-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\kc9agt59p1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\cw1te1aid3-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\j4fhncd636-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\lymefhcv6d-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\gxym8klgok-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\1aayv1ksyp-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\tqciqqmlvp-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ydmvng9743-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\zlouajkpd1-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\hqmxnf9qq4-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\sw65wra9v1-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\kdbbzsxgag-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\tvx232tnqj-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ho887uh8t1-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\olsafmiu06-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\gqun1463ig-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\94stcpieyh-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\vqqjhablva-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\t30s1dxo05-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\jikvsmqm9e-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\14g816sstq-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\63xky0ta6h-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\55c36y81ew-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\5id8cmkdu9-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\oizmzqxd60-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\f7picq3zvu-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\3pd1ry9hk5-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\snfdk2w49k-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\2mzqmozf6f-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\g8stotbncy-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\avu94lcng7-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ezrk6618um-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\w9gb16ni08-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\f9fjf9tr4j-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ijqvex1l4w-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\gxixeggr4o-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\r3ylea955p-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\asxhtlbhz2-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\5rwtotvrot-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ykvh8nw2tu-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\m3surjjqoy-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\x9bppierix-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\t63xzmb97w-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\vpawgnxo1c-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\o0e79gxmvx-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\x8xr907zs6-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\s5foz8x876-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\jpgltjjboq-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\vkcckvhrq6-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\8itub6d2fe-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\9t3jotvpcx-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\gb1ia940ul-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\7oaaml7v7o-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\qekn910bl7-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\hrpux9k50q-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\43e57mdj7f-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\015i2g3ku6-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\k4kzaiaoxg-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\q4u82e8969-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\0u8u4bucnl-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\65rqbkzaag-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\p6s63y4mth-{0}-s5kc54ryx1-s5kc54ryx1.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\krhqeve630-{0}-s5kc54ryx1-s5kc54ryx1.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_conn.1C486D92.Up2Date
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\refint\ONG_connect.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.pdb
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.genruntimeconfig.cache
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ref\ONG_connect.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\ONG_connect.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Neysa\Pictures\222\ONG\ONG_connect\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\appsettings.Development.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\appsettings.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.staticwebassets.runtime.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.staticwebassets.endpoints.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.exe
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.deps.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.runtimeconfig.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ONG_connect.pdb
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Humanizer.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Npgsql.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\System.CodeDom.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.csproj.AssemblyReference.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.AssemblyInfoInputs.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.AssemblyInfo.cs
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.csproj.CoreCompileInputs.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.MvcApplicationPartsAssemblyInfo.cs
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.MvcApplicationPartsAssemblyInfo.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.RazorAssemblyInfo.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.RazorAssemblyInfo.cs
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\scopedcss\bundle\ONG_connect.styles.css
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\scopedcss\projectbundle\ONG_connect.bundle.scp.css
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ofa40bqe71-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\j9swiz3yzq-{0}-90yqlj465b-90yqlj465b.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\vltxs1u3vm-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\14ipv7q33s-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\rh65p086id-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\eb27mqwgz2-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\9glsckmvxo-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\hh8ihyobdx-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\bww8ud00yd-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\edcrak57d7-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\sf8kf2lula-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\3tzsqhslk9-{0}-ub07r2b239-ub07r2b239.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\oxk5o6czdw-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\k8b25g0zwc-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\8axix7wldr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\d5z9sfpxbi-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\u8428c4e9i-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\tg53r17ghy-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\nlrl0f3xs3-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\1fc4q00scq-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\8xykfy6qmd-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\vsrbd71spn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\cynp17w084-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\7o8oyvng68-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\h9vwtoirpy-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\o5k23vqhrk-{0}-06098lyss8-06098lyss8.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\iznc766avz-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ns4583i71s-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\47012z8l2l-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\4vzefxwp2m-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\bh4v3mdph9-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\l186vlgaag-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\rsc7qacj1u-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\z408qb6q7a-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\qfr28sqcy1-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\0k1i85ntyh-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\xa379ftczi-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\lr5hmrr0j7-{0}-493y06b0oq-493y06b0oq.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ivy2s9gwh5-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\higufxz8op-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\s3tglgz8hr-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\vw9sls9bhj-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ym8tkpcl2i-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\zzna4nrm5w-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\igscs4x0yk-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\zap00c0tb5-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\pogzkicjpz-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\j3hwsq15kh-{0}-47otxtyo56-47otxtyo56.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\q3naettu8c-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ldxy2n3w6q-{0}-356vix0kms-356vix0kms.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ypthv7q62w-{0}-83jwlth58m-83jwlth58m.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\t6e3b82hrf-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\uocis9wxbx-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\2tikzqlmtu-{0}-ag7o75518u-ag7o75518u.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\9muusbdg0a-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\tpsq5dibur-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\t0qo7o574p-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\b9lhb08218-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\a3ygkwa5zy-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\y6mmgfh3ha-{0}-lugek5hnai-lugek5hnai.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\kc9agt59p1-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\cw1te1aid3-{0}-fr7q2aak1r-fr7q2aak1r.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\j4fhncd636-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\lymefhcv6d-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\gxym8klgok-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\1aayv1ksyp-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\tqciqqmlvp-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ydmvng9743-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\zlouajkpd1-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\hqmxnf9qq4-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\sw65wra9v1-{0}-ub07r2b239-ub07r2b239.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\kdbbzsxgag-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\tvx232tnqj-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ho887uh8t1-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\olsafmiu06-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\gqun1463ig-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\94stcpieyh-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\vqqjhablva-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\t30s1dxo05-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\jikvsmqm9e-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\14g816sstq-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\63xky0ta6h-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\55c36y81ew-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\5id8cmkdu9-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\oizmzqxd60-{0}-06098lyss8-06098lyss8.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\f7picq3zvu-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\3pd1ry9hk5-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\snfdk2w49k-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\2mzqmozf6f-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\g8stotbncy-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\avu94lcng7-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ezrk6618um-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\w9gb16ni08-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\f9fjf9tr4j-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ijqvex1l4w-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\gxixeggr4o-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\r3ylea955p-{0}-493y06b0oq-493y06b0oq.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\asxhtlbhz2-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\5rwtotvrot-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\ykvh8nw2tu-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\m3surjjqoy-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\x9bppierix-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\t63xzmb97w-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\vpawgnxo1c-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\o0e79gxmvx-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\x8xr907zs6-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\s5foz8x876-{0}-47otxtyo56-47otxtyo56.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\jpgltjjboq-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\vkcckvhrq6-{0}-l3n5xuwxn8-l3n5xuwxn8.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\8itub6d2fe-{0}-ilo7uva0vt-ilo7uva0vt.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\9t3jotvpcx-{0}-qlccset4i1-qlccset4i1.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\gb1ia940ul-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\7oaaml7v7o-{0}-ag7o75518u-ag7o75518u.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\qekn910bl7-{0}-xzw0cte36n-xzw0cte36n.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\hrpux9k50q-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\43e57mdj7f-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\015i2g3ku6-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\k4kzaiaoxg-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\q4u82e8969-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\0u8u4bucnl-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\65rqbkzaag-{0}-jfsiqqwiad-jfsiqqwiad.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\p6s63y4mth-{0}-s5kc54ryx1-s5kc54ryx1.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\compressed\krhqeve630-{0}-s5kc54ryx1-s5kc54ryx1.gz
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\staticwebassets.build.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\staticwebassets.development.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\swae.build.ex.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_conn.1C486D92.Up2Date
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\refint\ONG_connect.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.pdb
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ONG_connect.genruntimeconfig.cache
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\obj\Debug\net10.0\ref\ONG_connect.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Programacion Web 1\ProyectoWeb\ong-connect-main\ong-connect-main\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

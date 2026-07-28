@@ -1,0 +1,39 @@
+@model ONG_connect.ViewModels.BeneficiarioCreateViewModel
+
+@{
+    ViewData["Title"] = "Crear Beneficiario";
+}
+
+<h1>Crear Beneficiario</h1>
+
+<form asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group mb-3">
+        <label asp-for="Nombre" class="control-label"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="TipoBeneficiario" class="control-label"></label>
+        <input asp-for="TipoBeneficiario" class="form-control" />
+        <span asp-validation-for="TipoBeneficiario" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="CantidadAyuda" class="control-label"></label>
+        <input asp-for="CantidadAyuda" class="form-control" />
+        <span asp-validation-for="CantidadAyuda" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="IdProyecto" class="control-label">Proyecto</label>
+        <select asp-for="IdProyecto" class="form-control" asp-items="ViewBag.IdProyecto"></select>
+        <span asp-validation-for="IdProyecto" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Crear</button>
+        <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

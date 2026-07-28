@@ -1,0 +1,39 @@
+@model IEnumerable<ONG_connect.Models.Voluntario>
+
+@{
+    ViewData["Title"] = "Voluntarios";
+}
+
+<h1>Voluntarios</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Crear Nuevo</a>
+</p>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.Telefono)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.Estado)</th>
+            <th>Proyecto</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+            <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+            <td><partial name="_EstadoBadge" model="@(item.Estado ? "Activo" : "Inactivo")" /></td>
+            <td>@item.Proyecto?.Nombre</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.IdVoluntario" class="btn btn-sm btn-info">Detalles</a>
+                <a asp-action="Edit" asp-route-id="@item.IdVoluntario" class="btn btn-sm btn-warning">Editar</a>
+                <a asp-action="Delete" asp-route-id="@item.IdVoluntario" class="btn btn-sm btn-danger">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

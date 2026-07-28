@@ -1,0 +1,9 @@
+@model string
+
+@{
+    var texto = Model ?? string.Empty;
+    var esActivo = texto.Equals("Activo", StringComparison.OrdinalIgnoreCase);
+}
+<span class="badge @(esActivo ? "bg-success" : "bg-secondary")">
+    @texto
+</span>
