@@ -2,6 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ONG_connect.ViewModels
 {
+
     public class DonacionCreateViewModel
     {
         [Required(ErrorMessage = "El nombre del donante es obligatorio.")]
@@ -22,6 +23,8 @@ namespace ONG_connect.ViewModels
         [Required(ErrorMessage = "Debes asociar un proyecto.")]
         public int IdProyecto { get; set; }
     }
+    
+
 
     public class DonacionEditViewModel : DonacionCreateViewModel
     {
