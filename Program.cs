@@ -14,6 +14,8 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -46,6 +48,11 @@ else
 {
     app.UseSwagger();
     app.UseSwaggerUI(); // Disponible en /swagger
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -72,4 +79,4 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-app.Run();
+app.Run();}
