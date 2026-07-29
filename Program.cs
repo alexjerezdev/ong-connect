@@ -3,12 +3,16 @@ using Microsoft.EntityFrameworkCore;
 using ONG_connect.Data;
 using ONG_connect.Interfaces;
 using ONG_connect.Repositories;
+using ONG_connect.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+QuestPDF.Settings.License = QuestPDF.Infrastructure.LicenseType.Community;
 
 // Servicios existentes
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped<IReporteService, ReporteService>();
 
 // Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();

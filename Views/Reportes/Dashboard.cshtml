@@ -1,0 +1,216 @@
+@{
+    ViewData["Title"] = "Dashboard de Reportes";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Dashboard de Reportes</h1>
+    <div>
+        <a asp-controller="Reportes" asp-action="DescargarExcel" class="btn btn-success">
+            Descargar Excel
+        </a>
+        <a asp-controller="Reportes" asp-action="DescargarPdf" class="btn btn-danger">
+            Descargar PDF
+        </a>
+    </div>
+</div>
+
+<!-- KPIs de voluntarios -->
+<div class="row mb-4">
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-success shadow-sm">
+            <div class="card-body">
+                <h6 class="card-title">Voluntarios activos</h6>
+                <h2 id="kpiActivos">--</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-secondary shadow-sm">
+            <div class="card-body">
+                <h6 class="card-title">Voluntarios inactivos</h6>
+                <h2 id="kpiInactivos">--</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card text-white shadow-sm" style="background-color:#2572A9;">
+            <div class="card-body">
+                <h6 class="card-title">Total de voluntarios</h6>
+                <h2 id="kpiTotal">--</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">Donaciones por proyecto (Bs)</div>
+            <div class="card-body">
+                <canvas id="graficoDonaciones" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">Actividades por proyecto</div>
+            <div class="card-body">
+                <canvas id="graficoActividades" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">Voluntarios: activos vs inactivos</div>
+            <div class="card-body">
+                <canvas id="graficoVoluntarios" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">Beneficiarios por tipo</div>
+            <div class="card-body">
+                <canvas id="graficoBeneficiarios" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <div class="card shadow-sm">
+            <div class="card-header">Presupuesto vs. total donado por proyecto (Bs)</div>
+            <div class="card-body">
+                <canvas id="graficoPresupuesto" height="120"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        async function cargarGraficoDonaciones() {
+            const res = await fetch('/Reportes/DatosDonacionesPorProyecto');
+            const datos = await res.json();
+
+            new Chart(document.getElementById('graficoDonaciones'), {
+                type: 'bar',
+                data: {
+                    labels: datos.map(d => d.etiqueta),
+                    datasets: [{
+                        label: 'Total donado (Bs)',
+                        data: datos.map(d => d.valor),
+                        backgroundColor: 'rgba(37, 114, 169, 0.6)'
+                    }]
+                },
+                options: { responsive: true, plugins: { legend: { display: false } } }
+            });
+        }
+
+        async function cargarGraficoActividades() {
+            const res = await fetch('/Reportes/DatosActividadesPorProyecto');
+            const datos = await res.json();
+
+            new Chart(document.getElementById('graficoActividades'), {
+                type: 'pie',
+                data: {
+                    labels: datos.map(d => d.etiqueta),
+                    datasets: [{
+                        label: 'Actividades',
+                        data: datos.map(d => d.valor),
+                        backgroundColor: [
+                            'rgba(37, 114, 169, 0.7)',
+                            'rgba(214, 40, 40, 0.7)',
+                            'rgba(0, 166, 90, 0.7)',
+                            'rgba(255, 193, 7, 0.7)',
+                            'rgba(111, 66, 193, 0.7)'
+                        ]
+                    }]
+                },
+                options: { responsive: true }
+            });
+        }
+
+        async function cargarGraficoVoluntarios() {
+            const res = await fetch('/Reportes/DatosVoluntariosPorEstado');
+            const datos = await res.json();
+
+            // Rellenar los KPIs con los mismos datos
+            const activos = datos.find(d => d.etiqueta === 'Activos')?.valor ?? 0;
+            const inactivos = datos.find(d => d.etiqueta === 'Inactivos')?.valor ?? 0;
+            document.getElementById('kpiActivos').textContent = activos;
+            document.getElementById('kpiInactivos').textContent = inactivos;
+            document.getElementById('kpiTotal').textContent = activos + inactivos;
+
+            new Chart(document.getElementById('graficoVoluntarios'), {
+                type: 'doughnut',
+                data: {
+                    labels: datos.map(d => d.etiqueta),
+                    datasets: [{
+                        label: 'Voluntarios',
+                        data: datos.map(d => d.valor),
+                        backgroundColor: [
+                            'rgba(0, 166, 90, 0.75)',   // Activos
+                            'rgba(108, 117, 125, 0.75)' // Inactivos
+                        ]
+                    }]
+                },
+                options: { responsive: true }
+            });
+        }
+
+        async function cargarGraficoBeneficiarios() {
+            const res = await fetch('/Reportes/DatosBeneficiariosPorTipo');
+            const datos = await res.json();
+
+            new Chart(document.getElementById('graficoBeneficiarios'), {
+                type: 'bar',
+                data: {
+                    labels: datos.map(d => d.etiqueta),
+                    datasets: [{
+                        label: 'Beneficiarios',
+                        data: datos.map(d => d.valor),
+                        backgroundColor: 'rgba(255, 159, 64, 0.7)'
+                    }]
+                },
+                options: { indexAxis: 'y', responsive: true, plugins: { legend: { display: false } } }
+            });
+        }
+
+        async function cargarGraficoPresupuesto() {
+            const res = await fetch('/Reportes/DatosPresupuestoVsDonado');
+            const datos = await res.json();
+
+            new Chart(document.getElementById('graficoPresupuesto'), {
+                type: 'bar',
+                data: {
+                    labels: datos.map(d => d.nombreProyecto),
+                    datasets: [
+                        {
+                            label: 'Presupuesto (Bs)',
+                            data: datos.map(d => d.presupuesto),
+                            backgroundColor: 'rgba(37, 114, 169, 0.6)'
+                        },
+                        {
+                            label: 'Total donado (Bs)',
+                            data: datos.map(d => d.totalDonado),
+                            backgroundColor: 'rgba(0, 166, 90, 0.6)'
+                        }
+                    ]
+                },
+                options: { responsive: true }
+            });
+        }
+
+        cargarGraficoDonaciones();
+        cargarGraficoActividades();
+        cargarGraficoVoluntarios();
+        cargarGraficoBeneficiarios();
+        cargarGraficoPresupuesto();
+    </script>
+}
