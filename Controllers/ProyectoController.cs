@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ONG_connect.Interfaces;
 using ONG_connect.Models;
+using ONG_connect.ViewModels;
 
 namespace ONG_connect.Controllers
 {
@@ -35,48 +36,79 @@ namespace ONG_connect.Controllers
         {
             var usuarios = await _usuarioRepository.GetAllAsync();
             ViewData["IdUsuario"] = new SelectList(usuarios, "IdUsuario", "Nombre");
-            return View();
+            return View(new ProyectoCreateViewModel());
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nombre,Responsable,Presupuesto,Estado,IdUsuario")] Proyecto proyecto)
+        public async Task<IActionResult> Create(ProyectoCreateViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+                var proyecto = new Proyecto
+                {
+                    Nombre = viewModel.Nombre,
+                    Responsable = viewModel.Responsable,
+                    Presupuesto = viewModel.Presupuesto,
+                    Estado = viewModel.Estado,
+                    IdUsuario = viewModel.IdUsuario
+                };
+
                 await _repository.AddAsync(proyecto);
                 await _repository.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             var usuarios = await _usuarioRepository.GetAllAsync();
-            ViewData["IdUsuario"] = new SelectList(usuarios, "IdUsuario", "Nombre", proyecto.IdUsuario);
-            return View(proyecto);
+            ViewData["IdUsuario"] = new SelectList(usuarios, "IdUsuario", "Nombre", viewModel.IdUsuario);
+            return View(viewModel);
         }
 
         public async Task<IActionResult> Edit(int id)
         {
             var proyecto = await _repository.GetByIdAsync(id);
             if (proyecto == null) return NotFound();
+
+            var viewModel = new ProyectoEditViewModel
+            {
+                IdProyecto = proyecto.IdProyecto,
+                Nombre = proyecto.Nombre,
+                Responsable = proyecto.Responsable,
+                Presupuesto = proyecto.Presupuesto,
+                Estado = proyecto.Estado,
+                IdUsuario = proyecto.IdUsuario
+            };
+
             var usuarios = await _usuarioRepository.GetAllAsync();
             ViewData["IdUsuario"] = new SelectList(usuarios, "IdUsuario", "Nombre", proyecto.IdUsuario);
-            return View(proyecto);
+            return View(viewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdProyecto,Nombre,Responsable,Presupuesto,Estado,IdUsuario")] Proyecto proyecto)
+        public async Task<IActionResult> Edit(int id, ProyectoEditViewModel viewModel)
         {
-            if (id != proyecto.IdProyecto) return NotFound();
+            if (id != viewModel.IdProyecto) return NotFound();
 
             if (ModelState.IsValid)
             {
+                var proyecto = await _repository.GetByIdAsync(id);
+                if (proyecto == null) return NotFound();
+
+                proyecto.Nombre = viewModel.Nombre;
+                proyecto.Responsable = viewModel.Responsable;
+                proyecto.Presupuesto = viewModel.Presupuesto;
+                proyecto.Estado = viewModel.Estado;
+                proyecto.IdUsuario = viewModel.IdUsuario;
+
                 _repository.Update(proyecto);
                 await _repository.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             var usuarios = await _usuarioRepository.GetAllAsync();
-            ViewData["IdUsuario"] = new SelectList(usuarios, "IdUsuario", "Nombre", proyecto.IdUsuario);
-            return View(proyecto);
+            ViewData["IdUsuario"] = new SelectList(usuarios, "IdUsuario", "Nombre", viewModel.IdUsuario);
+            return View(viewModel);
         }
 
         [Authorize(Roles = "Admin")]

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ONG_connect.Interfaces;
 using ONG_connect.Models;
+using ONG_connect.ViewModels;
 
 namespace ONG_connect.Controllers
 {
@@ -35,48 +36,79 @@ namespace ONG_connect.Controllers
         {
             var proyectos = await _proyectoRepository.GetAllAsync();
             ViewData["IdProyecto"] = new SelectList(proyectos, "IdProyecto", "Nombre");
-            return View();
+            return View(new VoluntarioCreateViewModel());
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nombre,Telefono,Email,Estado,IdProyecto")] Voluntario voluntario)
+        public async Task<IActionResult> Create(VoluntarioCreateViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+                var voluntario = new Voluntario
+                {
+                    Nombre = viewModel.Nombre,
+                    Telefono = viewModel.Telefono,
+                    Email = viewModel.Email,
+                    Estado = viewModel.Estado,
+                    IdProyecto = viewModel.IdProyecto
+                };
+
                 await _repository.AddAsync(voluntario);
                 await _repository.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             var proyectos = await _proyectoRepository.GetAllAsync();
-            ViewData["IdProyecto"] = new SelectList(proyectos, "IdProyecto", "Nombre", voluntario.IdProyecto);
-            return View(voluntario);
+            ViewData["IdProyecto"] = new SelectList(proyectos, "IdProyecto", "Nombre", viewModel.IdProyecto);
+            return View(viewModel);
         }
 
         public async Task<IActionResult> Edit(int id)
         {
             var voluntario = await _repository.GetByIdAsync(id);
             if (voluntario == null) return NotFound();
+
+            var viewModel = new VoluntarioEditViewModel
+            {
+                IdVoluntario = voluntario.IdVoluntario,
+                Nombre = voluntario.Nombre,
+                Telefono = voluntario.Telefono,
+                Email = voluntario.Email,
+                Estado = voluntario.Estado,
+                IdProyecto = voluntario.IdProyecto
+            };
+
             var proyectos = await _proyectoRepository.GetAllAsync();
             ViewData["IdProyecto"] = new SelectList(proyectos, "IdProyecto", "Nombre", voluntario.IdProyecto);
-            return View(voluntario);
+            return View(viewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdVoluntario,Nombre,Telefono,Email,Estado,IdProyecto")] Voluntario voluntario)
+        public async Task<IActionResult> Edit(int id, VoluntarioEditViewModel viewModel)
         {
-            if (id != voluntario.IdVoluntario) return NotFound();
+            if (id != viewModel.IdVoluntario) return NotFound();
 
             if (ModelState.IsValid)
             {
+                var voluntario = await _repository.GetByIdAsync(id);
+                if (voluntario == null) return NotFound();
+
+                voluntario.Nombre = viewModel.Nombre;
+                voluntario.Telefono = viewModel.Telefono;
+                voluntario.Email = viewModel.Email;
+                voluntario.Estado = viewModel.Estado;
+                voluntario.IdProyecto = viewModel.IdProyecto;
+
                 _repository.Update(voluntario);
                 await _repository.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             var proyectos = await _proyectoRepository.GetAllAsync();
-            ViewData["IdProyecto"] = new SelectList(proyectos, "IdProyecto", "Nombre", voluntario.IdProyecto);
-            return View(voluntario);
+            ViewData["IdProyecto"] = new SelectList(proyectos, "IdProyecto", "Nombre", viewModel.IdProyecto);
+            return View(viewModel);
         }
 
         [Authorize(Roles = "Admin")]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ONG_connect")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74f9374d2d21a991c612eeb35a6573a7e557ee44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d98eabb79f4dd31705380021b6bdb51e934b2044")]
 [assembly: System.Reflection.AssemblyProductAttribute("ONG_connect")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ONG_connect")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
